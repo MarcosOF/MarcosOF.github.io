@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
-
-    <body>
-
-        <form action="contacto.php" method="POST">
-
-            <label>Usuario <input ></label>
-            <label></label>
-            <label></label>
-            <label></label>
-
-
-        </form>
-
-    </body>
-
+<head>
     
+</head>
+
+<body>
+
+    <form action="contacto.php" method="POST">
+
+        <label>Name <input type="text"></label><br>
+        <label>Password <input required type="password" " name=" contraseña1" maxlength="12"></label><br>
+        <label>Re-Type Password <input type="password" name="contraseña1" maxlength="12"></label><br>
+        <label>Gender <label><input type="radio" name="Gender" value="male">Male</label> <label><input type="radio"
+                    name="Gender" value="Female">Female</label> <label><input type="radio" name="Gender"
+                    value="Other">Other</label> </label><br>
+
+        <label>Contact no <input type="number"></label><br>
+        <label>Email <input type="email"></label><br>
+        <button type="submit">Contactar</button>
+
+    </form>
+    <br>
+    <a href="index.html">Volver a la pagina principal</a>
+</body>
+
+
 </html>
